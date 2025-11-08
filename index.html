@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TastyfoodHub | Delicious Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TastyfoodHub 🍴</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Delicious Food, Delivered Fast!</h2>
+    <p>Order your favorite dishes from TastyHub and enjoy at home!</p>
+    <button onclick="scrollToMenu()">Order Now</button>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Popular Dishes</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/pizza.jpg" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Classic cheese pizza with tomato sauce.</p>
+        <button onclick="addToCart('Cheese Pizza')">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/biryani.jpg" alt="Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant basmati rice with tender chicken.</p>
+        <button onclick="addToCart('Chicken Biryani')">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/paneer.jpg" alt="Paneer">
+        <h3>Paneer Butter Masala</h3>
+        <p>Creamy and flavorful paneer curry.</p>
+        <button onclick="addToCart('Paneer Butter Masala')">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/burger.jpg" alt="Burger">
+        <h3>Veg Burger</h3>
+        <p>Loaded with fresh veggies and sauces.</p>
+        <button onclick="addToCart('Veg Burger')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>TastyHub is your go-to food ordering site bringing mouth-watering meals to your doorstep. Fresh, Fast, and Flavorful!</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@tastyfoodhub.com</p>
+    <p>Phone: +91 9553764248</p>
+  </section>
+
+  <footer>
+    <p>© 2025 TastyfoodHub. Made with ❤️ for DevOps Project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
